@@ -1,0 +1,38 @@
+
+
+header {
+    display: flex;
+    background-color: #3D184E;
+    align-items:flex-end;
+    justify-content: space-between;
+    padding: 5px 16px;
+}
+
+.HeaderLogo {
+    padding: 10px;
+}
+
+.HeaderSearch {
+    padding: 10px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    background-color: #3D184E;
+    list-style: none;
+}
+
+header ul {
+    float: right;
+    color: white;
+}
+
+header li {
+    display: inline-block;
+    padding: 0px 5px;
+}
