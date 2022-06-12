@@ -3,9 +3,13 @@
 header {
     display: flex;
     background-color: #3D184E;
-    align-items:flex-end;
+    align-items: flex-end;
     justify-content: space-between;
     padding: 20px;
+}
+
+.HeaderImgs {
+    align-self: flex-end;
 }
 
 ul {
@@ -32,4 +36,73 @@ header button {
     width: 100px;
     height: 50px;
     
+}
+
+footer {
+    background-color: #051126;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FooterSubscription {
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-group-append {
+    padding: 10px;
+}
+
+.FooterSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FooterGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.FooterCopyright {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.FooterDonateVolunteer {
+    
+}
+
+.Donate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.DonateIconGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.DonateGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: flex-start;
+}
+
+.DonationBox {
+    text-align: center;
+}
+
+.OtherDonationMethod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
