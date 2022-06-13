@@ -6,21 +6,30 @@ header {
     align-items: flex-end;
     justify-content: space-between;
     padding: 20px;
+    width: 100%;
 }
 
 .HeaderImgs {
-    align-self: flex-end;
+    display: flex;
+    align-items: flex-end;
+}
+
+.navLinks {
+    display: flex;
+    align-items: flex-end;
 }
 
 ul {
     display: block;
     list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     background-color: #3D184E;
     list-style: none;
+    padding-inline-start: 0px;
+    margin-right: 40px;
 }
 
 header ul {
@@ -30,12 +39,21 @@ header ul {
 
 header li {
     display: inline-block;
+    margin-left: 16px;
 }
 
 header button {
     width: 100px;
     height: 50px;
     
+}
+
+.DonateHeroSpace {
+    width: 100%;
+}
+
+.hiddenIcon {
+    display: none;
 }
 
 footer {

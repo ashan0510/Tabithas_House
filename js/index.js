@@ -21,3 +21,11 @@ $(".skillInteraction").hover (function (){
 function(){
     $("#interactionText").css("display", "none");
 });
+
+$(".ToiletriesIcon").hover(function() {
+    $("#toiletriesDefault").addClass(hiddenIcon);
+    $("#toiletriesHover").removeClass(hiddenIcon);
+}, function() {
+    $("#toiletriesDefault").removeClass(hiddenIcon);
+    $("#toiletriesHover").addClass(hiddenIcon);
+});
