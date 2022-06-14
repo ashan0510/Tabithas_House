@@ -1,31 +1,7 @@
-$(".skillEmpathy").hover (function (){
-    console.log("You hovered");
-    $("#empathyText").css("display", "block");
-},
-function(){
-    $("#empathyText").css("display", "none");
-});
-
-$(".skillDesign").hover (function (){
-    console.log("You hovered");
-    $("#designText").css("display", "block");
-},
-function(){
-    $("#designText").css("display", "none");
-});
-
-$(".skillInteraction").hover (function (){
-    console.log("You hovered");
-    $("#interactionText").css("display", "block");
-},
-function(){
-    $("#interactionText").css("display", "none");
-});
-
 $(".ToiletriesIcon").hover(function() {
-    $("#toiletriesDefault").addClass(hiddenIcon);
-    $("#toiletriesHover").removeClass(hiddenIcon);
+    $("#ToiletriesDefault").addClass(HiddenIcon);
+    $("#ToiletriesHover").removeClass(HiddenIcon);
 }, function() {
-    $("#toiletriesDefault").removeClass(hiddenIcon);
-    $("#toiletriesHover").addClass(hiddenIcon);
+    $("#ToiletriesDefault").removeClass(HiddenIcon);
+    $("#ToiletriesHover").addClass(HiddenIcon);
 });

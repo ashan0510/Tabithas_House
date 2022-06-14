@@ -45,14 +45,20 @@ header li {
 header button {
     width: 100px;
     height: 50px;
+    transition-duration: .4s;
     
+}
+
+header button:hover {
+    background-color: #2E97A9;
+    color: white;
 }
 
 .DonateHeroSpace {
     width: 100%;
 }
 
-.hiddenIcon {
+.HiddenIcon {
     display: none;
 }
 
@@ -62,6 +68,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 15px;
 }
 
 .FooterSubscription {
@@ -91,10 +98,15 @@ footer {
 .FooterCopyright {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
 }
 
-.FooterDonateVolunteer {
-    
+.FooterContact {
+    padding-left: 30%;
+}
+
+.FooterLogo {
+    padding-left: 10%;
 }
 
 .Donate {
@@ -123,4 +135,16 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
+}
+
+.btn btn-outline-secondary {
+    transition-duration: .4s;
+    background-color: white;
+    color: black;
+}
+
+.btn btn-outline-secondary:hover {
+    background-color: #2E97A9;
+    color: white;
 }

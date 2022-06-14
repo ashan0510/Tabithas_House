@@ -36,12 +36,12 @@
             <h1>Hover over the icons below to view how your donation can help the organization</h1>
             <div class="DonateGrid">
                 <div class="DonateIconGrid">
-                    <div class="ToiletriesIcon"><img src="images/Property 1=Toiletries Icon.png" id="toiletriesDefault"><img src="images/Property 1=Toiletries Icon Hover.png" class="hiddenIcon" id="toiletriesHover"></div>
-                    <div class="TransportationIcon"><img src="images/Property 1=Transportation Icon.png"></div>
-                    <div class="BasicIcon"><img src="images/Property 1=Basic needs Icon.png"></div>
-                    <div class="AssessmentIcon"><img src="images/Property 1=Assessment Icon.png"></div>
-                    <div class="HousingIcon"><img src="images/Property 1=Housing Icon.png"></div>
-                    <div class="MedicanIcon"><img src="images/Property 1=Medical Icon.png"></div>
+                    <img class="ToiletryIcon" src="images/Property 1=Toiletries Icon.png" onmouseover="this.src='images/Property 1=Toiletries Icon Hover.png';" onmouseout="this.src='images/Property 1=Toiletries Icon.png';">
+                    <img class="TransportationIcon" src="images/Property 1=Transportation Icon.png" onmouseover="this.src='images/Property 1=Transportation Icon Hover.png';" onmouseout="this.src='images/Property 1=Transportation Icon.png';">
+                    <img class="BasicIcon" src="images/Property 1=Basic needs Icon.png" onmouseover="this.src='images/Property 1=Basic Needs Icon Hover.png';" onmouseout="this.src='images/Property 1=Basic needs Icon.png';">
+                    <img class="AssessmentIcon" src="images/Property 1=Assessment Icon.png" onmouseover="this.src='images/Property 1=Assessment Icon Hover.png';" onmouseout="this.src='images/Property 1=Assessment Icon.png';"> 
+                    <img class="HousingIcon" src="images/Property 1=Housing Icon.png" onmouseover="this.src='images/Property 1=Housing Icon Hover.png';" onmouseout="this.src='images/Property 1=Housing Icon.png';">
+                    <img class="MedicanIcon" src="images/Property 1=Medical Icon.png" onmouseover="this.src='images/Property 1=Medical Icon Hover.png';" onmouseout="this.src='images/Property 1=Medical Icon.png';"> 
                 </div>
                 <div class="DonationBox">
                     <h1>Make A Donation</h1>
@@ -50,6 +50,10 @@
                         <option value="1">$25 - Toiletries</option>
                         <option value="2">$100 - Transportation</option>
                         <option value="3">$500 - Basic Needs</option>
+                        <option value="4">$750 - Needs Assessment</option>
+                        <option value="5">$1,000 - Housing</option>
+                        <option value="6">$1,500 - Medical Needs</option>
+                        <option value="7">Other</option>
                       </select>
                 </div>
             </div>           
@@ -58,8 +62,8 @@
         <section class="OtherDonationMethod">
             <h1>Other Methods of Donating</h1>
             <div class="OtherDonateGrid">
-                <img src="images/Check Donation.png">
-                <img src="images/Amazon Smile.png">
+                <img class="Check" src="images/Check Donation.png" onmouseover="this.src='images/Property 1=Check Donation hover.png';" onmouseout="this.src='images/Check Donation.png';">
+                <img class="AmazonSmile" src="images/Amazon Smile.png"
                 <img src="images/Amazon Wishlist.png">
             </div>
         </section>
@@ -80,6 +84,8 @@
                                 <button class="btn btn-outline-secondary" type="button">Subscribe</button>
                             </div>
                         </div>
+                        <br>
+                        <h7>TabithasHouse. All rights reserved.</h7>
                     </div>
 
                     <div class="FooterContact">
@@ -97,15 +103,17 @@
                             <img src="images/linkedin.png">
                             <img src="images/twitter.png">
                         </div>
+                        <br>
+                        <div class="FooterDonateVolunteer">
+                            <h8>Donate</h8>
+                            <h8>Volunteer</h8>
+                        </div>
                     </div>                   
                 </div>
 
                 <div class="FooterCopyright">
-                    <h7>TabithasHouse. All rights reserved.</h7>
-                    <div class="FooterDonateVolunteer">
-                        <h8>Donate</h8>
-                        <h8>Volunteer</h8>
-                </div>
+                    
+                    
             </section>          
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
