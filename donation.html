@@ -11,7 +11,7 @@
         <header>
             <div class="HeaderImgs">
                 <div class="HeaderLogo">
-                    <img src="images/Logo white.png">
+                    <a href="index.html"><img src="images/Logo white.png"></a>
                 </div>
                 <div class="HeaderSearch">
                     <img src="images/searchbar.png">
@@ -22,9 +22,9 @@
                 <ul>
                     <li>About</li>
                     <li>Get Involved</li>
-                    <li>Resources</li>
+                    <li><a href="resource.html">Resources</a></li>
                 </ul>
-                <button>Donate</button>
+                <button><a href="donation.html">Donate</a></button>
             </div>
         </header>
 
@@ -33,7 +33,7 @@
         </section>
 
         <section class="Donate">
-            <h1>Hover over the icons below to view how your donation can help the organization</h1>
+            <h1 class="DonateBlurb">Hover over the icons below to view how your donation can help the organization</h1>
             <div class="DonateGrid">
                 <div class="DonateIconGrid">
                     <img class="ToiletryIcon" src="images/Property 1=Toiletries Icon.png" onmouseover="this.src='images/Property 1=Toiletries Icon Hover.png';" onmouseout="this.src='images/Property 1=Toiletries Icon.png';">
@@ -44,17 +44,37 @@
                     <img class="MedicanIcon" src="images/Property 1=Medical Icon.png" onmouseover="this.src='images/Property 1=Medical Icon Hover.png';" onmouseout="this.src='images/Property 1=Medical Icon.png';"> 
                 </div>
                 <div class="DonationBox">
-                    <h1>Make A Donation</h1>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Amount</option>
-                        <option value="1">$25 - Toiletries</option>
-                        <option value="2">$100 - Transportation</option>
-                        <option value="3">$500 - Basic Needs</option>
-                        <option value="4">$750 - Needs Assessment</option>
-                        <option value="5">$1,000 - Housing</option>
-                        <option value="6">$1,500 - Medical Needs</option>
-                        <option value="7">Other</option>
-                      </select>
+                    <div class="DonationBoxTitle"><h1>Make A Donation</h1></div>
+                    <div class="AmountDrop">
+                        <select class="form-select" aria-label="DonationAmount">
+                            <option selected>Amount</option>
+                            <option value="1">$25 - Toiletries</option>
+                            <option value="2">$100 - Transportation</option>
+                            <option value="3">$500 - Basic Needs</option>
+                            <option value="4">$750 - Needs Assessment</option>
+                            <option value="5">$1,000 - Housing</option>
+                            <option value="6">$1,500 - Medical Needs</option>
+                            <option value="7">Other</option>
+                        </select>
+                    </div>
+                    <div class="FrequencyDrop">
+                        <select class="form-select" aria-label="DonationFrequency">
+                            <option selected>Frequency</option>
+                            <option value="1">One Time</option>
+                            <option value="2">Weekly</option>
+                            <option value="3">Monthly</option>
+                        </select>
+                    </div>
+                    <div class="PaymentDrop">
+                        <select class="form-select" aria-label="DonationPayment">
+                            <option selected>Payment</option>
+                            <option value="1">Credit Card</option>
+                            <option value="2">Paypal</option>
+                            <option value="3">Apple Pay</option>
+                            <option value="4">Google Pay</option>
+                        </select>
+                    </div>
+                    <button>Continue</button>
                 </div>
             </div>           
         </section>
@@ -63,8 +83,8 @@
             <h1>Other Methods of Donating</h1>
             <div class="OtherDonateGrid">
                 <img class="Check" src="images/Check Donation.png" onmouseover="this.src='images/Property 1=Check Donation hover.png';" onmouseout="this.src='images/Check Donation.png';">
-                <img class="AmazonSmile" src="images/Amazon Smile.png"
-                <img src="images/Amazon Wishlist.png">
+                <img class="AmazonSmile" src="images/Amazon Smile.png" onmouseover="this.src='images/Property 1=Amazon Smile Hover.png';" onmouseout="this.src='images/Amazon Smile.png';">
+                <img class="AmazonWishlist" src="images/Amazon Wishlist.png" onmouseover="this.src='images/Property 1=Amazon Wishlist Hover.png';" onmouseout="this.src='images/Amazon Wishlist.png';">
             </div>
         </section>
 
@@ -110,12 +130,9 @@
                         </div>
                     </div>                   
                 </div>
-
-                <div class="FooterCopyright">
-                    
-                    
             </section>          
         </footer>
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <script src="js/index.js"></script>
     </body>

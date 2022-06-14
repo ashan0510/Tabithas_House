@@ -113,22 +113,41 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 30px;
 }
 
 .DonateIconGrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
+    padding: 20px;
 }
 
 .DonateGrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: flex-start;
+    padding: 20px;
+    align-items: center;
 }
 
 .DonationBox {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
     text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    border-style: solid;
+    
+}
+
+.DonationBoxTitle {
+    background-color: #3D184E;
+    color: white;
+    display: flex;
+    width: 100%;
+    padding: 10px 50px 10px 115px;
 }
 
 .OtherDonationMethod {
@@ -138,13 +157,94 @@ footer {
     padding: 20px;
 }
 
-.btn btn-outline-secondary {
-    transition-duration: .4s;
-    background-color: white;
-    color: black;
+.DonateBlurb {
+    padding: 20px;
+    width: 900px;
+    text-align: center;
 }
 
-.btn btn-outline-secondary:hover {
+.form-select {
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+.DonationBox button {
+    transition-duration: .4s;
+    padding: 10px;
+    margin: 10px;
+}
+
+.DonationBox button:hover {
     background-color: #2E97A9;
     color: white;
+}
+
+.WhoWhatWhyGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.WhoWhatWhy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.Who {
+    text-align: center;
+    align-items: center;
+    width: 325px;
+    margin: 50px;
+}
+
+.What {
+    text-align: center;
+    align-items: center;
+    width: 325px;
+    margin: 50px;
+}
+
+.Why {
+    text-align: center;
+    align-items: center;
+    width: 325px;
+    margin: 50px;
+}
+
+.WhoWhatWhy button {
+    transition-duration: .4s;
+}
+
+.WhoWhatWhy button:hover {
+    background-color: #2E97A9;
+    color: white;
+}
+
+.Volunteer {
+    align-content: center;
+    padding: 20px;
+}
+
+.Volunteer button {
+    transition-duration: .4s;
+}
+
+.Volunteer button:hover {
+    background-color: #2E97A9;
+    color: white;
+}
+
+.PartnerGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 50px;
+}
+
+.Partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
