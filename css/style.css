@@ -1,0 +1,250 @@
+
+
+header {
+    display: flex;
+    background-color: #3D184E;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+}
+
+.HeaderImgs {
+    display: flex;
+    align-items: flex-end;
+}
+
+.navLinks {
+    display: flex;
+    align-items: flex-end;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    background-color: #3D184E;
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-right: 40px;
+}
+
+header ul {
+    float: right;
+    color: white;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 16px;
+}
+
+header button {
+    width: 100px;
+    height: 50px;
+    transition-duration: .4s;
+    
+}
+
+header button:hover {
+    background-color: #2E97A9;
+    color: white;
+}
+
+.DonateHeroSpace {
+    width: 100%;
+}
+
+.HiddenIcon {
+    display: none;
+}
+
+footer {
+    background-color: #051126;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.FooterSubscription {
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-group-append {
+    padding: 10px;
+}
+
+.FooterSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FooterGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.FooterCopyright {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.FooterContact {
+    padding-left: 30%;
+}
+
+.FooterLogo {
+    padding-left: 10%;
+}
+
+.Donate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.DonateIconGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    padding: 20px;
+}
+
+.DonateGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: flex-start;
+    padding: 20px;
+    align-items: center;
+}
+
+.DonationBox {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    border-style: solid;
+    
+}
+
+.DonationBoxTitle {
+    background-color: #3D184E;
+    color: white;
+    display: flex;
+    width: 100%;
+    padding: 10px 50px 10px 115px;
+}
+
+.OtherDonationMethod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.DonateBlurb {
+    padding: 20px;
+    width: 900px;
+    text-align: center;
+}
+
+.form-select {
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+.DonationBox button {
+    transition-duration: .4s;
+    padding: 10px;
+    margin: 10px;
+}
+
+.DonationBox button:hover {
+    background-color: #2E97A9;
+    color: white;
+}
+
+.WhoWhatWhyGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.WhoWhatWhy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.Who {
+    text-align: center;
+    align-items: center;
+    width: 325px;
+    margin: 50px;
+}
+
+.What {
+    text-align: center;
+    align-items: center;
+    width: 325px;
+    margin: 50px;
+}
+
+.Why {
+    text-align: center;
+    align-items: center;
+    width: 325px;
+    margin: 50px;
+}
+
+.WhoWhatWhy button {
+    transition-duration: .4s;
+}
+
+.WhoWhatWhy button:hover {
+    background-color: #2E97A9;
+    color: white;
+}
+
+.Volunteer {
+    align-content: center;
+    padding: 20px;
+}
+
+.Volunteer button {
+    transition-duration: .4s;
+}
+
+.Volunteer button:hover {
+    background-color: #2E97A9;
+    color: white;
+}
+
+.PartnerGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 50px;
+}
+
+.Partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
