@@ -248,3 +248,46 @@ footer {
     flex-direction: column;
     align-items: center;
 }
+
+
+
+
+
+.heroGrid {
+    display: grid;
+}
+ 
+
+
+
+
+
+
+.heroGridArea {
+    position: relative;
+    width: 100%;
+}
+
+.ResourcesPackBtn{
+    position: relative;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:#F3FAFB;
+    color:#3D184E;
+    padding: 12px 32px;
+    border:#3D184E;
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.heroGridArea img {
+    width: 100%;
+    height: 80%;
+}
+

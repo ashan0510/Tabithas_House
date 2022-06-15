@@ -6,30 +6,39 @@
         <title>Resources Pages</title>
     </head>
     <body>
+
         <header>
-            <nav id="navBar">
-             <img src="images/Logo white.png">
-             <div class="SEARCH_CONTAINER">
-                 <form action="#">
-                     <input type="text" placeholder="Search" name="search">
-                     <button type="submit" class="SEARCH_BUTTON">
-                         <i class="fa fa-search" style="font-size: 18px;"></i>
-                     </button>
-                 </form>
-             </div>
-             <ul class="NAV_LIST">
-                 <li>About</li>
-                 <li>Get Involved</li>
-                 <li>Resources</li>
-             </ul>
-             <button id="DONATE_BUTTON_ID">Donate</button>
-        </nav>
+            <div class="HeaderImgs">
+                <div class="HeaderLogo">
+                    <a href="index.html"><img src="images/Logo white.png"></a>
+                </div>
+                <div class="HeaderSearch">
+                    <form action="#">
+                        <button type="submit" class="HeaderSearchBtn">
+                            <i class="fa fa-search" style="font-size: 18px;">
+                            </i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="navLinks">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Get Involved</a></li>
+                    <li><a href="resource.html">Resources</a></li>
+                </ul>
+                <button><a href="donation.html">Donate</a></button>
+            </div>
         </header>
 
         <section class="heroGrid">
-            <div class="heroGridArea" id="heroImgBtn">
+            <div class="heroGridArea" id="heroImgGrid">
                 <img src="images/HeroImg_Resources.png" alt="Reources">
-                <button class="ResourcesPackBtn">Download Resources Packet</button>
+                <button class="ResourcesPackBtn">
+                    Download <br>
+                    Resources Packet
+                </button>
             </div>
         </section>
 
